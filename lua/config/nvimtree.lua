@@ -9,6 +9,7 @@ function M.setup()
     view = {
       number = true,
       relativenumber = true,
+      side = "right",
     },
     filters = {
       custom = { ".git" },

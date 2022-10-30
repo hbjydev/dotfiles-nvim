@@ -16,6 +16,5 @@ nnoremap('<C-p>', ':Telescope git_files<cr>')
 nnoremap('<leader>pv', ':NvimTreeToggle<cr>')
 
 -- git stuff
-nnoremap("<leader>gco", function () require('neogit').open() end)
-nnoremap("<leader>gcc", function () require('neogit').open({ "commit" }) end)
+nnoremap("<leader>gco", ":Neogit")
 

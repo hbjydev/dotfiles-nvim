@@ -16,6 +16,20 @@ function M.setup(servers, server_options)
 
   require("mason-tool-installer").setup {
     ensure_installed = {
+      "ansible-language-server",
+      "bash-language-server",
+      "css-lsp",
+      "dockerfile-language-server",
+      "eslint-lsp",
+      "html-lsp",
+      "json-lsp",
+      "jsonnet-language-server",
+      "lua-language-server",
+      "prisma-language-server",
+      "tailwindcss-language-server",
+      "commitlint",
+      "buf",
+      "buf-language-server",
       "intelephense",
       "gopls",
       "golangci-lint",
@@ -26,6 +40,11 @@ function M.setup(servers, server_options)
       "codelldb",
       "stylua",
       "shfmt",
+      "shellcheck",
+      "terraform-ls",
+      "tflint",
+      "typescript-language-server",
+      "yaml-language-server",
       "shellcheck",
       "prettierd"
     },
